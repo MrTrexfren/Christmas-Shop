@@ -1,2 +1,2 @@
 # Christmas-Shop
-School project
+This is a school project yesyesyesyeysyes
