@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+}
+
+#logo {
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 100px;
+    transition: ease-in-out 0.3s;
+}
+
+#logo:hover {
+    font-size: 110px;
+}
+
+
+
+#main {
+    margin: auto;
+    width: 1500px;
+    height: 1500px;
+}
+
+.row {
+    display: flex;
+    width: 1500px;
+    height:356px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.shop-box {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border-style: groove;
+    border-width: 3px;
+    border-color: white;
+    background-color: white;
+    transition: ease-in-out 0.3s;
+    margin:auto;
+}
+
+.shop-box:hover {
+    border-color: lightgreen;
+}
+
+.buy-btn {
+    font-family: monospace;
+    border-color:  pink;
+    background-color: white;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 0;
+    font-size: 40px;
+    transition: ease-in-out 0.2s;
+}
+
+.buy-btn:hover {
+    background-color: pink;
+}
+
+#thanks {
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#money {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#santa-dance {
+    margin-top: 100px;
+    animation: dance ease-in-out 1s infinite;
+}
+
+@keyframes dance {
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-10deg);}
+    100%{transform: rotate(10deg);}
+}
